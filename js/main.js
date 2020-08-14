@@ -1,5 +1,7 @@
 $(window).scroll(function () {
 
+  $('.nav-bahai').toggleClass('nav-bahai-scrolled', $(this).scrollTop() > 0);
+
   var scroll = $(window).scrollTop();
 
   $('.layer').each(function () {
@@ -25,3 +27,4 @@ $(window).scroll(function () {
   });
 
 });
+

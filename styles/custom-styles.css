@@ -214,6 +214,11 @@ svg path {
     margin-top: 21px;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #95f071;
+    background-color: transparent;
+}
+
 .nav-item .dropdown-item {
     min-height: auto;
 }
