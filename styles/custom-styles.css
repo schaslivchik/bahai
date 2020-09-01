@@ -951,6 +951,28 @@ p {
     .bahai-form-registration {
         margin-bottom: 45px;    
     }
+   
+}
+@media (max-width: 768px) {
+    h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .first-steps .baha-phrase {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .this-week-presenter h2 {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .btn-facebook {
+        margin: 20px;
+    }
+    h1 {
+        font-size: 54px;
+    }
 }
 
   
