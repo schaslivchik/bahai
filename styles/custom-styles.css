@@ -941,5 +941,16 @@ p {
 }
 
 }
+@media all and (max-width: 991px) {
+    .wide-header-search p {
+        margin: 0;
+    }
+    .wide-header-search .input-group {
+        margin: 25px 0;
+    }
+    .bahai-form-registration {
+        margin-bottom: 45px;    
+    }
+}
 
   
