@@ -1,3 +1,5 @@
+
+
 $(window).scroll(function () {
 
   $('.nav-bahai').toggleClass('nav-bahai-scrolled', $(this).scrollTop() > 0);
@@ -27,4 +29,9 @@ $(window).scroll(function () {
   });
 
 });
+
+$('.trigger-menu').click(function () {
+  $('.nav-bahai').toggleClass('show-menu');
+  $('.trigger-menu').toggleClass('trigger-menu-active')
+})
 
