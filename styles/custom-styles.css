@@ -508,7 +508,7 @@ svg path {
 }
 
 .video-box .thumbnail {
-    width: 245px;
+    max-width: 245px;
     height: 140px;
     position: relative;
     overflow: hidden;
@@ -932,6 +932,12 @@ h4 {
 }
 p {
     font-size: 15px;
+}
+.text-item br {
+ display: none;
+}
+.footer-title {
+    font-size: 21px;
 }
 
 }
