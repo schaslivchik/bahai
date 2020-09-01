@@ -965,6 +965,22 @@ p {
     .this-week-presenter h2 {
         width: 100%;
     }
+    .wrap-subscribe-form {
+        flex-wrap: wrap;
+    }
+    .text-subscribe {
+        margin: 0 0 30px 0;
+    }
+    .this-week-presenter h3 span {
+        font-size: 18px;
+    }
+    .this-week-presenter h3 {
+        font-size: 21px;
+    }
+    .this-week-presenter, .spirit-study-cources {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 @media (max-width: 576px) {
     .btn-facebook {
@@ -972,6 +988,34 @@ p {
     }
     h1 {
         font-size: 54px;
+    }
+    .bahai-social {
+        flex-wrap: wrap;
+        height: inherit;
+        align-items: center;
+        justify-content: center;
+    }
+    .bahai-social-left-part {
+        margin-right: 0;
+    }
+    .bahai-social-left-part,
+    .bahai-social-right-part {
+        width: 300px;
+    }
+    .bahai-social-zoom,
+    .bahai-social-youtube,
+    .bahai-social-facebook {
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .bahai-social-zoom {
+        background: #2D8CFF;
+    }
+    .bahai-social-youtube {
+        background: #ff0000;
+    }
+    .bahai-social-facebook {
+        background: #3b5997;
     }
 }
 
