@@ -951,6 +951,12 @@ p {
     .bahai-form-registration {
         margin-bottom: 45px;    
     }
+    .prlx-mandala-2 {
+        top: 530px;
+    }
+    .prlx-the-valley {
+        top: 745px;
+    }
    
 }
 @media (max-width: 768px) {
@@ -1016,6 +1022,10 @@ p {
     }
     .bahai-social-facebook {
         background: #3b5997;
+    }
+    .prlx-the-valley,
+    .prlx-mandala-2 {
+        display: none;
     }
 }
 
