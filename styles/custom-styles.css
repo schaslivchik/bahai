@@ -851,8 +851,46 @@ svg path {
     transform: rotate(-45deg);
     position: absolute;
 }
+.wrap-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+.events-counter-item {
+    position: relative;
+    text-align: center;
+    
+}
+.events-counter-item:last-child {
+    width: 160px;
+}
+.events-counter {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.events-counter-item p:first-child{
+    font-size: 136px;
+    color: #1EB7E3;
+    font-weight: 600;
+    text-align: center;
+}
+.events-counter-item p:nth-child(2) {
+margin-top: 50px;
+text-align: center;
+}
+.events-counter-item-dots {
+    font-size: 60px;
+    line-height: 0;
+    color: #1EB7E3;
+    width: 50px;
+    text-align: center;
+}
 
-  /**
+
+/**
 *   Media
 **/
 @media all and (max-width: 1199px) {
@@ -957,7 +995,9 @@ p {
     .prlx-the-valley {
         top: 745px;
     }
-   
+    .prlx-the-valley {
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     h2 {
@@ -987,6 +1027,26 @@ p {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .events-counter-item p:first-child {
+        font-size: 36px;
+    }
+    .events-counter-item-dots {
+        font-size: 21px;  
+        width: 20px;  
+    }
+    .events-counter-item:last-child {
+        width: 40px;
+    }
+    .events-counter-item p:nth-child(2) {
+        margin-top: 0;
+    }
+    .events-counter-item-dots {
+        line-height: 1;
+    }
+    .wrap-counter {
+        margin: 30px 0;
+    }
+    
 }
 @media (max-width: 576px) {
     .btn-facebook {
