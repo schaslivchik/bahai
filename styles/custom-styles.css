@@ -70,7 +70,7 @@ button:focus,
 }
 
 .color-pink {
-    color: #E93274;
+    color: #ff6ca1;
 }
 
 .color-marine {
@@ -96,6 +96,12 @@ button:focus,
 .first-steps a.color-green,
 .first-steps a.color-orange {
     font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.md-text {
+    font-size: 15px;
 }
 
 a.color-beige:hover {
@@ -103,7 +109,7 @@ a.color-beige:hover {
 }
 
 a.color-pink:hover {
-    color: #c1205a;
+    color: #db316f;
 }
 
 a.color-marine:hover {
@@ -829,7 +835,7 @@ svg path {
     z-index: 99999;
     right: 5px;
     top: 5px;
-    border-radius: 8px;
+    border-radius: 10px 0 10px 0;
     cursor: pointer;
     display: none;
     padding: 10px;
@@ -839,6 +845,9 @@ svg path {
     width: 40px;
     height: 2px;
     background: #ffffff;
+}
+.trigger-menu-active {
+    background: transparent;
 }
 .trigger-menu-active .trigger-item:first-child {
     transform: rotate(45deg);
@@ -968,9 +977,7 @@ h2 {
 h4 {
     font-size: 18px;
 }
-p {
-    font-size: 15px;
-}
+
 .text-item br {
  display: none;
 }
@@ -998,6 +1005,10 @@ p {
     .prlx-the-valley {
         display: none;
     }
+    .first-steps {
+        padding: 60px 15px 160px;
+    }
+    
 }
 @media (max-width: 768px) {
     h2 {
@@ -1028,7 +1039,7 @@ p {
         padding-right: 15px;
     }
     .events-counter-item p:first-child {
-        font-size: 36px;
+        font-size: 66px;
     }
     .events-counter-item-dots {
         font-size: 21px;  
@@ -1046,7 +1057,16 @@ p {
     .wrap-counter {
         margin: 30px 0;
     }
-    
+    .footer-title {
+        margin-top: 40px;
+    }
+    .wrap-subscribe-form {
+        margin: 30px 0;
+    }
+    .bahai-contact-list,
+    .trending-list {
+        margin: 0;
+    }
 }
 @media (max-width: 576px) {
     .btn-facebook {
@@ -1086,6 +1106,12 @@ p {
     .prlx-the-valley,
     .prlx-mandala-2 {
         display: none;
+    }
+    .events-counter-item p:first-child {
+        font-size: 50px;
+    }
+    .events-counter-item-dots {
+        width:10px;
     }
 }
 
